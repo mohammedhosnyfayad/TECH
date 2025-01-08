@@ -1,0 +1,45 @@
+.navbar {
+  background-color: black;
+}
+body {
+  font-family: "Montserrat", serif !important;
+  height: 8000px;
+}
+.navbar .fa-bars {
+  color: rgb(255, 255, 255);
+}
+.card-group .card {
+  border: 1px solid rgba(34, 34, 34, 0.387) !important;
+}
+.card-group {
+}
+.card-body h5 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.title {
+  padding: 90px;
+  text-transform: uppercase;
+}
+.card-body h4 {
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(220, 16, 36);
+  cursor: context-menu;
+  transition: 0.3s;
+}
+.card-body h4:hover {
+  transform: scale(1.1);
+}
+.dropdown-menu {
+  text-transform: uppercase;
+}
+.dropdown-menu li a {
+  transition: 0.3s;
+}
+.dropdown-menu li a:hover {
+  background-color: red;
+  color: white;
+}

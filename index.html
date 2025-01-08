@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="botstarp.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">TECH TRICK</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link fw-medium p-lg-3 active text-white"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white p-lg-3"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul
+                class="dropdown-menu rounded-0 pb-0 mt-2 text-center fw-medium"
+              >
+                <li>
+                  <a
+                    class="dropdown-item p-2 border-bottom fw-medium"
+                    href="#keyboard"
+                    >keyboard</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-medium p-2 border-bottom"
+                    href="#maouse"
+                    >maouse</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item fw-medium p-2 border-bottom" href="#"
+                    >case</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item fw-medium p-2" href="#">GPU</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium p-lg-3 text-white" href="#"
+                >Pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-medium p-lg-3 text-white" href="#"
+                >Pricing</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="cover.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="cover.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="cover.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="title text-center">
+      <h1 class="fw-medium">Some products</h1>
+    </div>
+    <!-- cards -->
+
+    <div class="row row-cols-1 row-cols-md-4 g-0 p-3 justify-content-around">
+      <div class="col mb-4">
+        <div class="card">
+          <img
+            src="https://scontent.fcai20-3.fna.fbcdn.net/v/t39.30808-6/454324623_122165793482177581_7039922190685187891_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=F8DI4CjM62YQ7kNvgEb7fBe&_nc_oc=AdjO9W9ZiqLIC8ZtfRXCNmAr2hy98jLWlo9jQVL4HLNi7_bd3WzDQyyyr9qfB4kQ_cU&_nc_zt=23&_nc_ht=scontent.fcai20-3.fna&_nc_gid=AGBnBYeADNeslDSPTIEC8oE&oh=00_AYA24TFTSmp6yOES5TsIBPIZvQaWHPke1ZxTYeVKuInKCw&oe=6783229E"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">500$</h5>
+            <p class="card-text text-center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img
+            src="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/454607799_122166213296177581_2607453577756415429_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3AFAeGjUVGQQ7kNvgHwObbC&_nc_oc=AdjnXmZaXewueKNfWOBzktGHjjzxeQPNj27sko_ZjppcxcYRWhO8sEOhHwly9xbVS8w&_nc_zt=23&_nc_ht=scontent.fcai20-5.fna&_nc_gid=AGBnBYeADNeslDSPTIEC8oE&oh=00_AYDml-3luA6Mu5xawO4fThTk_98WeU_0gsqwJZ9n6QQ-sA&oe=67831B03"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">500$</h5>
+            <p class="card-text text-center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img
+            src="https://scontent.fcai20-5.fna.fbcdn.net/v/t39.30808-6/455817488_122168623202177581_2327984386246128720_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8HPSHlH6qksQ7kNvgGbFQXy&_nc_oc=Adj1fNdUr23lR9ToD0KL-0Rq17PcYEM_iBGq7b2n32wQfgXD1mN88T4838ClT-FtDbs&_nc_zt=23&_nc_ht=scontent.fcai20-5.fna&_nc_gid=AWPgl2sgD1EUdCspcGQR-3Y&oh=00_AYBX7eGpGjnwyufmh8N9R93Q8jCLv0jhwTyL_JiPwYyvRA&oe=678329AC"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">500$</h5>
+            <p class="card-text text-center">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- keyboard -->
+    <div class="title text-center" id="keyboard">
+      <h1 class="fw-medium">keyboard</h1>
+    </div>
+
+    <div class="card-group container mb-md-3 justify-content-around">
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Razer Huntsman Elite</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">SteelSeries Apex Pro</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Corsair K95 RGB Platinum XT</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Logitech G915 TKL</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-group container justify-content-around">
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Logitech MX Keys</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Microsoft Ergonomic</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Apple Magic Keyboard</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://media.istockphoto.com/id/1313504623/photo/rainbow-keyboard-gaming-keyboard-with-rgb-light-backlit-keyboard-in-a-dark-room-copy-space.jpg?s=612x612&w=0&k=20&c=97HFzOCdY6zRjMp-Hp9LzO6zYCRwH2_YflQsXP5gRV8="
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Dell KB216</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <!-- maouse -->
+    <div class="title text-center" id="maouse">
+      <h1 class="fw-medium">maouse</h1>
+    </div>
+
+    <div class="card-group container mb-md-3 justify-content-around">
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Razer Huntsman Elite</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">SteelSeries Apex Pro</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Corsair K95 RGB Platinum XT</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Logitech G915 TKL</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-group container justify-content-around">
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Logitech MX Keys</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Microsoft Ergonomic</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Apple Magic Keyboard</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card me-md-3">
+        <img
+          src="https://www.yankodesign.com/images/design_news/2022/05/razer/Razer-Viper-V2-Pro-White.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Dell KB216</h5>
+          <p class="card-text text-center">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This content is a little bit longer.
+          </p>
+          <h4 class="text-center">550$</h4>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
